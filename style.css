@@ -51,6 +51,10 @@ body,
     align-items: center;
 }
 
+.bootstrap-switch {
+    margin-right: 1rem;
+}
+
 
 /* page 1 */
 

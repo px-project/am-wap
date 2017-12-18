@@ -5,6 +5,12 @@ $(document).ready(function () {
         now.getHours() + ':' + now.getMinutes() + ':' +now.getSeconds() 
     );
 
+    $('input[type="checkbox"]').bootstrapSwitch({
+        size: 'mini',
+        onText: '',
+        offText: '',
+        handleWidth: 10
+    });
 
     $('#info-form').on('submit', e => {
         e.preventDefault();
@@ -18,6 +24,8 @@ $(document).ready(function () {
             obj[item.name] = item.value;
             return obj;
         }, {});
+
+        console.log(result);
 
         // send request
         // todo
