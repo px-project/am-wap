@@ -24,6 +24,7 @@ $(document).ready(function () {
             obj[item.name] = item.value;
             return obj;
         }, {});
+        result.ability = result.ability || [];
 
         console.log(result);
 
