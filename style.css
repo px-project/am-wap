@@ -116,6 +116,9 @@ body,
     color: white;
     font-size: 0.6rem;
     line-height: 0.8rem;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 #page1 .info #now {
