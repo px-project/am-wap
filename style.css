@@ -55,6 +55,10 @@ body,
     margin-right: 1rem;
 }
 
+.bootstrap-switch .bootstrap-switch-handle-on {
+    background: #89b7b0!important;
+}
+
 
 /* page 1 */
 
